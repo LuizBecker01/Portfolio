@@ -102,8 +102,13 @@ section.topo-site .flex{
 }
 
 .topo-site .img-topo-site img{
+    width: 19rem;
+    height: 19rem;
+    overflow: hidden;
+    object-fit: cover;
     border-radius: 50%;
     position: relative;
+    border: 2px solid #692ed6;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
