@@ -115,3 +115,15 @@ section.topo-site .flex{
         top: 30px;
     }
 }
+
+/* Estilo Experiencias */
+section.experiencias{
+    padding: 2.5rem 4%;
+}
+
+.logo-flokisys{
+    width: 150px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0.7rem;
+}
