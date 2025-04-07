@@ -100,3 +100,18 @@ section.topo-site .flex{
 .topo-site .txt-topo-site .btn-contato button:hover{
     transform: scale(1.05);
 }
+
+.topo-site .img-topo-site img{
+    border-radius: 50%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
