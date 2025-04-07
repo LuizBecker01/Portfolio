@@ -8,12 +8,17 @@
 
 body{
    background-color: #000;
-    color: #fff;
+   color: #fff;
+   height: 100vh;
 }
 
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
 }
 
 /* Estilo cabeçalho */
@@ -55,3 +60,43 @@ header nav ul li{
     border-radius: 50%;
 }
 
+/* Estilo topo */
+section.topo-site{
+    padding: 2.5rem 4%;
+}
+
+section.topo-site .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    font-size: 42px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.topo-site .txt-topo-site h1 span{
+    color: #692ed6;
+}
+
+.topo-site .txt-topo-site p{
+    font-size: 16px;
+    margin: 2rem 0;
+}
+
+.topo-site .txt-topo-site .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #692ed6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.topo-site .txt-topo-site .btn-contato button:hover{
+    transform: scale(1.05);
+}
