@@ -134,6 +134,31 @@ section.topo-site .flex{
     }
 }
 
+/* Estilo sobre */
+section.sobre{
+    padding: 2.5rem 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 32px;
+}
+
+.sobre .txt-sobre h3{
+    font-size: 20px;
+    margin: .7rem 0;
+    color: #692ed6;
+}
+
+
 /* Estilo Experiencias */
 section.experiencias{
     padding: 2.5rem 4%;
