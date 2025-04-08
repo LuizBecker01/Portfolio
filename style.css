@@ -8,7 +8,6 @@
 
 body{
    background-color: #000;
-   color: #fff;
    height: 100vh;
 }
 
@@ -21,14 +20,13 @@ body{
     display: flex;
 }
 
-h2.title{
+h2.titulo{
     font-size: 32px;
     color: #fff;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
-h2.title span{
+h2.titulo span{
     color: #692ed6;
 }
 
@@ -95,6 +93,7 @@ section.topo-site .flex{
 .topo-site .txt-topo-site p{
     font-size: 16px;
     margin: 2rem 0;
+    color: #fff;
 }
 
 .topo-site .txt-topo-site .btn-contato button{
@@ -137,9 +136,24 @@ section.experiencias{
     padding: 2.5rem 4%;
 }
 
-.logo-flokisys{
-    width: 150px;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 0.7rem;
+section.experiencias .flex{
+    gap: 3rem;
+}
+
+.experiencias .box-XP{
+    color: #fff;
+    padding: 2.5rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    transition: .2s;
+}
+
+.experiencias .box-XP:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #692ed688;
+}
+
+.experiencias .box-XP h3{
+    font-size: 26px;
+    margin: 1rem 0;
 }
