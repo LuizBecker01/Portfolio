@@ -21,6 +21,17 @@ body{
     display: flex;
 }
 
+h2.title{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2.title span{
+    color: #692ed6;
+}
+
 /* Estilo cabeçalho */
 header{
     padding: 2.5rem 4%;
