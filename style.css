@@ -30,6 +30,10 @@ h2.titulo span{
     color: #692ed6;
 }
 
+h3.titulo span{
+    color: #692ed6;
+}
+
 /* Estilo cabeçalho */
 header{
     padding: 2.5rem 4%;
@@ -63,10 +67,9 @@ header nav ul li{
 
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.style-logo{
+    padding: 5px 0;
+    border-radius: 45%;
 }
 
 /* Estilo topo */
@@ -141,19 +144,20 @@ section.experiencias .flex{
 }
 
 .experiencias .box-XP{
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     padding: 2.5rem;
     margin-top: 2.5rem;
     border-radius: 1rem;
     transition: .2s;
+    
 }
 
 .experiencias .box-XP:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 10px #692ed688;
 }
 
 .experiencias .box-XP h3{
-    font-size: 26px;
+    font-size: 20px;
     margin: 1rem 0;
 }
