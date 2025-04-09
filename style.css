@@ -259,7 +259,7 @@ section.projetos .flex{
 }
 
 /* Estilo formulario */
-section.contato{
+/* section.contato{
     padding: 5rem 4%;
 }
 
@@ -304,4 +304,4 @@ form .btn-enviar input{
 
 form .btn-enviar input:hover{
     transform: scale(1.05);
-}
+} */
