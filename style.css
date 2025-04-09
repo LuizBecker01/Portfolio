@@ -163,7 +163,7 @@ section.sobre .flex{
     margin: 1rem 0;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     color: #fff;
     height: 50px;
     width: 50px;
@@ -304,4 +304,50 @@ form .btn-enviar input{
 
 form .btn-enviar input:hover{
     transform: scale(1.05);
+} */
+
+/* Estilo Rodape */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #692ed634;
+}
+
+.logo-footer{
+    padding: 5px 0;
+    border-radius: 45%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0 ;
+}
+
+.borda{
+    border-top: 2px solid #692ed6 ;
+}
+
+footer .line-footer p i{
+    color: #692ed6;
+    font-size: 18px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+footer .line-footer .copy{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* footer .line-footer .copy span{
+    color: #692ed6;
+    font-weight: 300;
 } */
