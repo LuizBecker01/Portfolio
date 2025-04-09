@@ -104,6 +104,7 @@ section.topo-site .flex{
     font-size: 18px;
     font-weight: 600;
     background-color: #692ed6;
+    color: #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -255,4 +256,52 @@ section.projetos .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+/* Estilo formulario */
+section.contato{
+    padding: 5rem 4%;
+}
+
+form{
+    max-width: 31.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 35px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 20px  15px;
+    border-radius: 0.9rem;
+    font-size: 16px;
+}
+
+form textarea{
+    resize: none;
+    min-height: 160px;
+}
+
+form .btn-enviar{
+    margin-top: 22px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #692ed6;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover{
+    transform: scale(1.05);
 }
