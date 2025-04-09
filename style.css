@@ -158,6 +158,26 @@ section.sobre .flex{
     color: #692ed6;
 }
 
+.sobre .txt-sobre p{
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+.sobre .txt-sobre .btn-social button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #692ed6;
+    font-size: 22px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+    transform: scale(1.05);
+}
 
 /* Estilo Experiencias */
 section.experiencias{
