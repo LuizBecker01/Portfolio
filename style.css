@@ -154,7 +154,6 @@ section.sobre .flex{
 
 .sobre .txt-sobre h3{
     font-size: 20px;
-    margin: .7rem 0;
     color: #692ed6;
 }
 
@@ -164,6 +163,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre .btn-social button{
+    color: #fff;
     height: 50px;
     width: 50px;
     border-radius: 50%;
