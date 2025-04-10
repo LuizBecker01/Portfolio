@@ -99,7 +99,7 @@ section.topo-site .flex{
     color: #fff;
 }
 
-.topo-site .txt-topo-site .btn-contato button{
+/* .topo-site .txt-topo-site .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -113,7 +113,7 @@ section.topo-site .flex{
 
 .topo-site .txt-topo-site .btn-contato button:hover{
     transform: scale(1.05);
-}
+} */
 
 .topo-site .img-topo-site img{
     width: 19rem;
@@ -351,3 +351,46 @@ footer .line-footer .copy{
     color: #692ed6;
     font-weight: 300;
 } */
+
+@media screen and (max-width: 1020px){
+    /* Estilo Gerais */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* Estilo cabecalho */
+    .menu-desktop{
+        display: none;
+    }
+
+    /* Estilo topo-site */
+    section.top-site{
+        padding: 20px 8%;
+    }
+
+    section.topo-site .flex{
+        gap: 40px;
+    }
+    
+    .topo-site h1{
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    /* Estilo Sobre */
+
+    /* Estilo Experiencias */
+
+    /* Estilo Tecnicas */
+
+    /* Estilo Projetos */
+
+    /* Estilo formulario */
+
+    /* Estilo Rodape */
+
+}
