@@ -524,13 +524,24 @@ footer .line-footer .copy{
         gap: 1rem;
     }    
 
-    /* Estilo Tecnicas */
+    /* Estilo Tecnocnologias */
     section.tecnologias{
         padding: 20px 8%;
     }
 
     section.tecnologias .flex{
-        gap: 1rem;
+        gap: 2rem;
+    }
+
+    h3.sub-titulo-tec{
+        font-size: 20px;
+        margin: 0px 0 50px 0;
+    }
+
+    .tecnologias .box-tec{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     /* Estilo Projetos */
