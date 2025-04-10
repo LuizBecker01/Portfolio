@@ -72,6 +72,8 @@ header nav ul li{
     border-radius: 45%;
 }
 
+/* Estilo Menu Mobile */
+
 /* Estilo topo */
 section.topo-site{
     padding: 2.5rem 4%;
@@ -354,6 +356,7 @@ footer .line-footer .copy{
     font-weight: 300;
 } */
 
+/* Responsividade */
 @media screen and (max-width: 1020px){
     /* Estilo Gerais */
     .flex{
