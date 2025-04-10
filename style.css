@@ -277,8 +277,60 @@ section.experiencias .flex{
 }
 
 /* Estilo Tecnicas */
+section.tecnologias{
+    padding: 5rem 4%;
+}
 
+section.tecnologias .flex{
+    justify-content: space-around;
+    gap: 3rem;
+}
 
+h2.titulo-tec{
+    font-size: 32px;
+    color: #fff;
+
+}
+
+h3.sub-titulo-tec{
+    color: #692ed6;
+}
+
+.tecnologias .box-tec{
+    background-color: #37373870;
+    color: #fff;
+    width: 19rem;
+    height: 19rem;
+    padding: 3rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    /* transition: .2s; */
+    
+}
+
+/* .tecnologias .box-tec:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 4px 2px #692ed6;
+} */
+
+section.tecnologias .box-tec i{
+    color: #692ed6;
+    font-size: 28px;
+}
+
+.tecnologias .box-tec h3{
+    font-size: 20px;
+    margin: 1rem 0;
+    
+}
+
+section.tecnologias .box-tec ul li::marker{
+    color: #692ed6;
+}
+
+.borda{
+    border-top: 2px solid #692ed6 ;
+}
 
 /* Estilo Projetos */
 section.projetos{
@@ -472,6 +524,13 @@ footer .line-footer .copy{
     }    
 
     /* Estilo Tecnicas */
+    section.tecnologias{
+        padding: 20px 8%;
+    }
+
+    section.tecnologias .flex{
+        gap: 1rem;
+    }
 
     /* Estilo Projetos */
     section.projetos{
