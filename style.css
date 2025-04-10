@@ -318,9 +318,10 @@ section.tecnologias .box-tec i{
     font-size: 28px;
 }
 
-.tecnologias .box-tec h3{
-    font-size: 20px;
-    margin: 1rem 0;
+.tecnologias .box-tec .titulo{
+    font-size: 22px;
+    margin: .7rem 0;
+    text-align: left;
     
 }
 
