@@ -134,6 +134,12 @@ header nav.menu-desktop ul li{
     background-color: #692ed6;
 }
 
+@media screen and (min-width: 1020px){
+    .btn-abrir-menu i{
+        display: none;
+    }
+}
+
 /* Estilo topo */
 section.topo-site{
     padding: 2.5rem 4%;
