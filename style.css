@@ -182,6 +182,20 @@ section.topo-site .flex{
 .topo-site .txt-topo-site .btn-contato button:hover{
     transform: scale(1.05);
 } */
+.tools{
+    align-items: right;
+    padding: 2px 5px;
+    width: 238px;
+    display: flex;
+    background-color: #fff;
+    gap: 7px;
+    border-radius: 7px;
+}
+
+.tools img{
+    width: 40px;
+    color: #fff;
+}
 
 .topo-site .img-topo-site img{
     width: 19rem;
