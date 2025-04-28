@@ -357,6 +357,7 @@ section.projetos .flex{
     margin-top: 3rem;
 }
 
+
 .img-port{
     width: 22.5rem;
     height: 28.7rem;
@@ -371,7 +372,7 @@ section.projetos .flex{
     background-position: 100% 100%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
